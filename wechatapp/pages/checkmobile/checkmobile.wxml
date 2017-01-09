@@ -1,0 +1,17 @@
+<!--checkmobile.wxml-->
+<view class="container">
+  <view>
+    <form>
+      <view class ="input_section">
+        <label>请输入电话号码</label>    
+        <input type="text" placeholder="String"> </input>
+        <button bindTap="GetSms">获取校验码</button>
+      </view>
+      <view class="input_section">
+        <label>验证码</label>
+        <input type="text"></input>
+        </view>
+        <button></button>
+    </form>
+  </view>
+</view>
